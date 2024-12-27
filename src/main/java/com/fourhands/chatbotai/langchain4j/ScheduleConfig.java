@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Configuration;
 @RequiredArgsConstructor
 public class ScheduleConfig {
 
-    private static final String KEY = "AIzaSyC3CJ5gZ5pbt4H6YOzYIub4M9u9WxrIJR4";
+    private static final String KEY = "";
 
     private final ScheduleTools scheduleTools;
 
