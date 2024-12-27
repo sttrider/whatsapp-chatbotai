@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: chatbotai
+  config:
+    import: optional:secrets.yaml
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/four_hands?createDatabaseIfNotExist=true
+    username: root
+    password: root
+  jpa:
+    open-in-view: false
+
+
+logging:
+  level:
+    org:
+      springframework:
+        web:
+          filter:
+            CommonsRequestLoggingFilter: INFO
